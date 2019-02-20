@@ -19,7 +19,7 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "clb"
   ],
   "license": "MIT",
   "scripts": {
@@ -27,7 +27,8 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
@@ -35,5 +36,21 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-preset-gatsby": "^0.1.7",
+    "eslint": "^5.14.1",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "gatsby-plugin-eslint": "^2.0.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.1.0",
+    "jest-dom": "^3.1.2",
+    "prettier": "^1.16.4",
+    "react-testing-library": "^5.9.0"
   }
 }
