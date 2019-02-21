@@ -15,7 +15,7 @@ const {
 
 const IndexPage = () => {
   return (
-    <IndexLayout>
+    <IndexLayout seoTitle="Apply for CLB" seoContent={bannerContent.content}>
       <IndexBanner content={bannerContent} />
       <VideoSection
         title={introContent.title}
