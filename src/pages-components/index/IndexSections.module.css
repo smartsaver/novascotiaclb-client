@@ -1,0 +1,7 @@
+.Content h2 {
+  margin-top: 4rem !important;
+}
+
+.Content h2:first-child {
+  margin-top: 0 !important;
+}

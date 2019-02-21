@@ -2,9 +2,16 @@ import React from 'react'
 import IndexLayout from './IndexLayout'
 import IndexBanner from './IndexBanner'
 import VideoSection from './VideoSection'
+import ApplySection from './ApplySection'
+import IndexSection from './IndexSections'
 import indexContent from './content'
 
-const { bannerContent, introContent } = indexContent
+const {
+  bannerContent,
+  introContent,
+  sectionsContent,
+  applyContent,
+} = indexContent
 
 const IndexPage = () => {
   return (
@@ -15,6 +22,8 @@ const IndexPage = () => {
         content={introContent.content}
         url={bannerContent.videoUrl}
       />
+      <IndexSection content={sectionsContent.content} />
+      <ApplySection content={applyContent} />
     </IndexLayout>
   )
 }
