@@ -1,0 +1,37 @@
+.BannerImage {
+  background-color: #efefef;
+  background: url('../../images/anetas-son-overlay.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* remove fixed background if bigger than widescreen devices */
+@media (min-width: 1441px) {
+  .BannerImage {
+    background-position-y: 0;
+    background-attachment: unset;
+  }
+}
+
+.IndexBanner {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 38rem;
+  margin: 0 auto;
+}
+
+/* center all text on big devices */
+@media (min-width: 769px) {
+  .IndexBanner {
+    text-align: center;
+  }
+}
+
+.IndexBanner p,
+.IndexBanner h1,
+.IndexBanner strong {
+  color: whitesmoke !important;
+  text-shadow: 1px 1px black;
+  text-shadow: 1px 1.3px #111111b3;
+}
