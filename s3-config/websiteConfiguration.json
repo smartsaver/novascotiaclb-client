@@ -1,6 +1,5 @@
 {
   "IndexDocument": {
     "Suffix": "index.html"
-  },
-  "RoutingRules": []
+  }
 }
