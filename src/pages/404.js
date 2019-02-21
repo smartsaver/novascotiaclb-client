@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'
+import Layout from '../components/Layout'
 
 const NotFoundPage = () => (
-  <div>
-    <h1>NOT FOUND</h1>
-  </div>
-);
+  <Layout>
+    <h1>Route not found</h1>
+  </Layout>
+)
 
-export default NotFoundPage;
+export default NotFoundPage
