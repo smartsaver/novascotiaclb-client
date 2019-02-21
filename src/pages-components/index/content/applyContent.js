@@ -1,6 +1,6 @@
 import processMarkdown from '../../../libs/marked'
 
-const embedUrl = 'https://www.smartsaver.org/startmyresp/?nsProv'
+const embedUrl = 'https://www.smartsaver.org/startmyresp/?ns'
 
 const applyContent = {
   title: 'Apply For Your Child’s Canada Learning Bond Today!',
