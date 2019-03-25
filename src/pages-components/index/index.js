@@ -4,6 +4,7 @@ import IndexBanner from './IndexBanner'
 import VideoSection from './VideoSection'
 import ApplySection from './ApplySection'
 import IndexSection from './IndexSections'
+import ContactSection from './ContactSection'
 import indexContent from './content'
 
 const {
@@ -11,6 +12,7 @@ const {
   introContent,
   sectionsContent,
   applyContent,
+  contactContent,
 } = indexContent
 
 const IndexPage = () => {
@@ -24,6 +26,7 @@ const IndexPage = () => {
       />
       <IndexSection content={sectionsContent.content} />
       <ApplySection content={applyContent} />
+      <ContactSection content={contactContent} />
     </IndexLayout>
   )
 }
