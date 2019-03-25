@@ -35,3 +35,8 @@
   text-shadow: 1px 1px black;
   text-shadow: 1px 1.3px #111111b3;
 }
+
+.IndexBanner h1 {
+  font-size: 3rem !important;
+  font-weight: 400;
+}
