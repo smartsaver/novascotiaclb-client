@@ -1,20 +1,25 @@
 import React from 'react'
 import Section from '../../components/Section'
+import SurveyForm from '../../components/SurveyForm'
 import style from './ApplySection.module.css'
 
 const ApplySection = props => {
-  const { embedUrl, title } = props.content
+  const { content, embedUrl, footerContent, title } = props.content
   return (
     <Section name="apply" className={style.ApplySection}>
       <h2 className="title is-3">{title}</h2>
-      <a
-        href={embedUrl}
-        className="button is-danger"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Start Now
-      </a>
+      <div className="content" dangerouslySetInnerHTML={{ __html: content }} />
+      <SurveyForm isEnabled={true}>
+        <iframe
+          className={style.SurveyFrame}
+          src={embedUrl}
+          title="UFile RESP Application"
+        />
+      </SurveyForm>
+      <div
+        className="content"
+        dangerouslySetInnerHTML={{ __html: footerContent }}
+      />
     </Section>
   )
 }

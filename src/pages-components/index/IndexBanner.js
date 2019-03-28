@@ -3,7 +3,7 @@ import Section from '../../components/Section'
 import style from './IndexBanner.module.css'
 
 const IndexBanner = props => {
-  const { content = '', title = '' } = props.content
+  const { content = '' } = props.content
   return (
     <header>
       <Section
@@ -13,7 +13,6 @@ const IndexBanner = props => {
           ${style.IndexBanner}
         `}
       >
-        <h1 className="title">{title}</h1>
         <p
           className="title is-3"
           dangerouslySetInnerHTML={{ __html: content }}

@@ -1,13 +1,12 @@
 import processMarkdown from '../../../libs/marked'
 
 const introContent = {
-  title: 'Canada Learning Bonds',
+  title: 'Did you know?',
   content: processMarkdown(`
-**Your child could be eligible to receive up to $2,000 in free money for their post-secondary education from the Canada Learning Bond (CLB).**
+* Youth with savings for their education are 31% more likely to have a post-secondary mindset than those who have none.
+* Children with education savings of up to $500 are 3 times more likely to enrol in post-secondary and 4 times more likely to graduate.
 
-If your child is eligible, the Government of Canada will deposit the money directly into a bank account called a Registered Education Savings Plan (RESP). All you have to do is register.
-
-You don’t have to pay fees or put any money into the RESP for your child to receive the CLB.
+Nova Scotia is working to increase post-secondary opportunities to youth. By focusing on the 50,000 + children who are eligible for the Canada Learning Bond, we can build a better future for our children and province.
   `),
 }
 

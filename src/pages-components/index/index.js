@@ -4,17 +4,13 @@ import IndexBanner from './IndexBanner'
 import VideoSection from './VideoSection'
 import ApplySection from './ApplySection'
 import IndexSection from './IndexSections'
-import ContactSection from './ContactSection'
 import indexContent from './content'
-import ApplyPersonSection from './ApplyPersonSection'
 
 const {
   bannerContent,
   introContent,
   sectionsContent,
   applyContent,
-  contactContent,
-  applyPersonContent,
 } = indexContent
 
 const IndexPage = () => {
@@ -28,8 +24,6 @@ const IndexPage = () => {
       />
       <IndexSection content={sectionsContent.content} />
       <ApplySection content={applyContent} />
-      <ApplyPersonSection content={applyPersonContent} />
-      <ContactSection content={contactContent} />
     </IndexLayout>
   )
 }
