@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - lts/*
+install:
+  - npm install
 before_deploy:
   - pip install awscli --upgrade --user
   - npm install -g travis-ci-cloudfront-invalidation
