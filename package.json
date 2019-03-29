@@ -31,7 +31,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "deploy": "npm run build && aws s3 --profile=smartsaver cp public/ s3://novascotiaclb.ca --recursive"
   },
   "repository": {
     "type": "git",
