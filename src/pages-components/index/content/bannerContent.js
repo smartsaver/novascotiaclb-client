@@ -1,6 +1,7 @@
 const bannerContent = {
+  title: 'Canada Learning Bonds',
   content:
-    'Saving for your children’s education is easy with the Canada Learning Bond (CLB)! The CLB offers families with low to modest incomes a simple way to start saving now for their children’s future education.',
+    'Your child could be eligible to receive up to $2,000 in free money for their post-secondary education from the Canada Learning Bond (CLB). ',
   videoUrl: 'https://www.youtube.com/embed/ev6ZtfjRdBg',
 }
 
