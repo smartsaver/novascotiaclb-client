@@ -7,6 +7,7 @@ import IndexSection from './IndexSections'
 import ContactSection from './ContactSection'
 import indexContent from './content'
 import ApplyPersonSection from './ApplyPersonSection'
+import AboutContent from './AboutSection'
 
 const {
   bannerContent,
@@ -15,6 +16,7 @@ const {
   applyContent,
   contactContent,
   applyPersonContent,
+  aboutContent,
 } = indexContent
 
 const IndexPage = () => {
@@ -30,6 +32,7 @@ const IndexPage = () => {
       <ApplySection content={applyContent} />
       <ApplyPersonSection content={applyPersonContent} />
       <ContactSection content={contactContent} />
+      <AboutContent content={aboutContent} />
     </IndexLayout>
   )
 }
