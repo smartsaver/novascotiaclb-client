@@ -62,6 +62,8 @@ const applyPersonContent = {
   title: 'Apply in Person',
   header: processMarkdown(`
 You can get help filing taxes, getting SINs for your children and register for the CLB at a walk-in tax clinic. Clinics are being held around the province in April. 
+
+Each clinic location is wheelchair accessible and will have American Sign Language (ASL) interpreters available.
   `),
   table,
   footer: processMarkdown(`
