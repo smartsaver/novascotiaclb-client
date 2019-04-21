@@ -61,21 +61,16 @@ Dartmouth North Community Food Center
 const applyPersonContent = {
   title: 'Apply in Person',
   header: processMarkdown(`
-You can get help filing taxes, getting SINs for your children and register for the CLB at a walk-in tax clinic. Clinics are being held around the province in April. 
-
-Each clinic location is wheelchair accessible and will have American Sign Language (ASL) interpreters available.
+Walk-in clinic registration has now ended for 2019.
   `),
   table,
   footer: processMarkdown(`
-If you can’t attend one of these clinic, you can get help with your taxes at another free tax clinic in your community. These clinics are for taxes only, not for SINs or the CLB. Visit the Community Volunteer Income Tax Program for more information.
-
 ## Before You Start
 
 When you register for the CLB, make sure you have:
  
-* Social Insurance Numbers (SIN) for you and your child
 * Your most recent income tax and benefit return
-* An RESP account where the government can deposit the money.
+* Social Insurance Numbers (SIN) for you and your child. [Learn how to apply for a SIN.](https://www.smartsaver.org/startmyresp/en/Learn-How-to-Apply-for-Sin.html)
   `),
 }
 

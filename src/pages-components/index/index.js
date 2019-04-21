@@ -7,6 +7,7 @@ import IndexSection from './IndexSections'
 import ContactSection from './ContactSection'
 import indexContent from './content'
 import ApplyPersonSection from './ApplyPersonSection'
+import ApplyPhoneSection from './ApplyPhoneSection'
 import AboutContent from './AboutSection'
 
 const {
@@ -16,6 +17,7 @@ const {
   applyContent,
   contactContent,
   applyPersonContent,
+  applyPhoneContent,
   aboutContent,
 } = indexContent
 
@@ -30,6 +32,7 @@ const IndexPage = () => {
       />
       <IndexSection content={sectionsContent.content} />
       <ApplySection content={applyContent} />
+      <ApplyPhoneSection content={applyPhoneContent} />
       <ApplyPersonSection content={applyPersonContent} />
       <ContactSection content={contactContent} />
       <AboutContent content={aboutContent} />

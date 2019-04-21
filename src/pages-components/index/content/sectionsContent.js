@@ -18,7 +18,7 @@ Families can register for the CLB if they have:
   
 If you already have an RESP, talk to your bank or RESP provider to let them know you want to register for the CLB.
  
-If you don’t have an RESP, you can open one and register for your child’s CLB online or in person at a tax clinic.
+If you don’t have an RESP, you can open one and register for your child’s CLB online or by phone.
     `),
 }
 
