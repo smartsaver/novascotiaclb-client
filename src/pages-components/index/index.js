@@ -7,7 +7,9 @@ import IndexSection from './IndexSections'
 import ContactSection from './ContactSection'
 import indexContent from './content'
 import ApplyPersonSection from './ApplyPersonSection'
+import ApplyPhoneSection from './ApplyPhoneSection'
 import AboutContent from './AboutSection'
+import BeforeApplyingSection from './BeforeApplyingSection'
 
 const {
   bannerContent,
@@ -16,7 +18,9 @@ const {
   applyContent,
   contactContent,
   applyPersonContent,
+  applyPhoneContent,
   aboutContent,
+  beforeApplyingContent,
 } = indexContent
 
 const IndexPage = () => {
@@ -30,7 +34,9 @@ const IndexPage = () => {
       />
       <IndexSection content={sectionsContent.content} />
       <ApplySection content={applyContent} />
+      <ApplyPhoneSection content={applyPhoneContent} />
       <ApplyPersonSection content={applyPersonContent} />
+      <BeforeApplyingSection content={beforeApplyingContent} />
       <ContactSection content={contactContent} />
       <AboutContent content={aboutContent} />
     </IndexLayout>

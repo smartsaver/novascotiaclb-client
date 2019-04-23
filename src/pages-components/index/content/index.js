@@ -5,7 +5,9 @@ import footerContent from './footerContent'
 import sectionsContent from './sectionsContent'
 import contactContent from './contactContent'
 import applyPersonContent from './applyPersonContent'
+import applyPhoneContent from './applyPhoneContent'
 import aboutContent from './aboutContent'
+import beforeApplyingContent from './beforeApplyingContent'
 
 export default {
   bannerContent,
@@ -15,5 +17,7 @@ export default {
   sectionsContent,
   contactContent,
   applyPersonContent,
+  applyPhoneContent,
   aboutContent,
+  beforeApplyingContent,
 }
