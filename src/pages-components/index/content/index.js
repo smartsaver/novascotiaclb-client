@@ -7,6 +7,7 @@ import contactContent from './contactContent'
 import applyPersonContent from './applyPersonContent'
 import applyPhoneContent from './applyPhoneContent'
 import aboutContent from './aboutContent'
+import beforeApplyingContent from './beforeApplyingContent'
 
 export default {
   bannerContent,
@@ -18,4 +19,5 @@ export default {
   applyPersonContent,
   applyPhoneContent,
   aboutContent,
+  beforeApplyingContent,
 }

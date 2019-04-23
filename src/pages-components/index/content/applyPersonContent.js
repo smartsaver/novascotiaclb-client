@@ -64,14 +64,6 @@ const applyPersonContent = {
 Walk-in clinic registration has now ended for 2019.
   `),
   table,
-  footer: processMarkdown(`
-## Before You Start
-
-When you register for the CLB, make sure you have:
- 
-* Your most recent income tax and benefit return
-* Social Insurance Numbers (SIN) for you and your child. [Learn how to apply for a SIN.](https://www.smartsaver.org/startmyresp/en/Learn-How-to-Apply-for-Sin.html)
-  `),
 }
 
 export default applyPersonContent
