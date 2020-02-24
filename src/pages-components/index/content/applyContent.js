@@ -1,9 +1,9 @@
 import processMarkdown from '../../../libs/marked'
 
-const embedUrl = 'https://www.smartsaver.org/startmyresp/?ns'
+const embedUrl = 'https://mysmartfuture.org/signup/clbnb'
 
 const applyContent = {
-  title: 'Apply Online',
+  title: 'Apply For Your Child’s Canada Learning Bond Today!',
   content: processMarkdown(`
 _If you cannot see the form, [click here.](${embedUrl})_
   `),
