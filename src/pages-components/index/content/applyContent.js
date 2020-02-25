@@ -1,6 +1,6 @@
 import processMarkdown from '../../../libs/marked'
 
-const embedUrl = 'https://mysmartfuture.org/signup/clbnb'
+const embedUrl = 'https://mysmartfuture.org/signup/ns'
 
 const applyContent = {
   title: 'Apply For Your Child’s Canada Learning Bond Today!',
