@@ -2,21 +2,32 @@ import processMarkdown from '../../../libs/marked'
 
 const table = [
   {
-    city: 'Sydney',
+    city: 'Windsor',
     dateAndTime: processMarkdown(`
-Thursday April 4, 2019
-4:00 p.m. to 8:00 pm.
+Thursday, March 5, 2020
+2:00 p.m. to 7:00 p.m.
     `),
     location: processMarkdown(`
-Royal Canadian Legion Branch 128
-10 Wesley Street
+Windsor Legion
+35 Empire Lane
+    `),
+  },
+  {
+    city: 'Spryfield',
+    dateAndTime: processMarkdown(`
+Saturday, March 7, 2020
+10:00 a.m. to 3:00 p.m.
+    `),
+    location: processMarkdown(`
+Captain William Spry Public Library 
+16 Sussex Street
     `),
   },
   {
     city: 'Truro',
     dateAndTime: processMarkdown(`
-Saturday April 6, 2019
-10:00 a.m. to 3:00 p.m.
+Thursday, March 19, 2020
+3:00 p.m. to 7:00 p.m.
     `),
     location: processMarkdown(`
 Colchester-East Hants Public Library
@@ -24,36 +35,58 @@ Colchester-East Hants Public Library
     `),
   },
   {
-    city: 'Kentville',
+    city: 'Amherst',
     dateAndTime: processMarkdown(`
-Friday April 12, 2019
-4:30 p.m. to 8:30 p.m.
+Friday, March 20, 2020
+10:00 a.m. to 2:00 p.m.
     `),
     location: processMarkdown(`
-The Salvation Army Church
+Trinity-St. Stephen’s United Church
+1 Ratchford Street
+    `),
+  },
+  {
+    city: 'Kentville',
+    dateAndTime: processMarkdown(`
+Saturday, March 21, 2020
+10:00 a.m. to 2:00 p.m.
+    `),
+    location: processMarkdown(`
+The Salvation Army Kentville Community Church
 15 Nichols Avenue
     `),
   },
   {
-    city: 'Halifax',
+    city: 'New Glasgow',
     dateAndTime: processMarkdown(`
-Saturday April 13, 2019
-10:00 a.m. to 3:00 p.m.
+Tuesday, March 24, 2020
+1:00 p.m. to 4:00 p.m.
     `),
     location: processMarkdown(`
-Captain William Spry Community Center
-16 Sussex Street
+Glasgow Square Theatre
+155 Riverside Parkway
+    `),
+  },
+  {
+    city: 'Sydney',
+    dateAndTime: processMarkdown(`
+Thursday, March 26, 2020
+4:00 p.m. to 8:00 pm.
+    `),
+    location: processMarkdown(`
+Whitney Pier Royal Canadian Legion
+10 Wesley Street
     `),
   },
   {
     city: 'Dartmouth',
     dateAndTime: processMarkdown(`
-Tuesday April 16, 2019
-3:00 p.m. to 7:00 p.m.
+Saturday, March 28, 2020
+10:00 a.m. to 3:00 p.m.
     `),
     location: processMarkdown(`
-Dartmouth North Community Food Center 
-140-6 Primrose Street
+Dartmouth North Public Library 
+105 Highfield Park Drive
     `),
   },
 ]
@@ -61,7 +94,7 @@ Dartmouth North Community Food Center
 const applyPersonContent = {
   title: 'Apply in Person',
   header: processMarkdown(`
-Walk-in clinic registration has now ended for 2019.
+You can get help filing taxes, getting SINs for your children and register for the CLB at a walk-in tax clinic. Clinics are being held around the province in March. Each clinic location is wheelchair accessible and will have American Sign Language (ASL) interpreters available.
   `),
   table,
 }

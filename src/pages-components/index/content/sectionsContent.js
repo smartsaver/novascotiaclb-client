@@ -12,7 +12,7 @@ Families can register for the CLB if they have:
 
 * Children born on or after January 1, 2004.
 * Canadian residency or citizenship.
-* A net family income of $46,605 or less for a family with up to 3 children – if you have more than 3, visit the [Canada Revenue Agency’s website](https://www.canada.ca/en/employment-social-development/services/student-financial-aid/education-savings/resp/resp-promoters/bulletin/notice-2018-772.html) to find your income limit.
+* A net family income of $47,630 or less for a family with up to 3 children – if you have more than 3, visit the Employment and Social Development [website]( https://www.canada.ca/en/employment-social-development/services/learning-bond/eligibility.html) to find your income limit.
 
 ## How to Apply
   
